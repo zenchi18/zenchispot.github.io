@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zenchi Spot — Novidades de Anime & Mangá</title>
+  <meta name="description" content="Fique por dentro de todas as novidades do mundo dos animes e mangás. Reviews, lançamentos, trailers e muito mais!">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #1b0037, #4b0082, #6a00ff);
+      color: #fff;
+    }
+    header, section, footer {
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      background: rgba(0,0,0,0.7);
+      border-radius: 12px;
+      margin-top: 25px;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .button {
+      display: block;
+      width: fit-content;
+      margin: 15px auto;
+      padding: 12px 20px;
+      background: #6a00ff;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+    .card {
+      background: rgba(255,255,255,0.1);
+      border-radius: 10px;
+      padding: 15px;
+      width: 220px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    input, select, textarea, button {
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+    }
+    button {
+      background: #6a00ff;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>O Universo Otaku em Um Só Lugar!</h1>
+    <p>As últimas novidades de anime e mangás, destacadas especialmente para os fãs.</p>
+    <a href="#destaques" class="button">Ver Últimas Notícias</a>
+  </header>
+
+  <section id="destaques">
+    <h2>Destaques Recentes</h2>
+    <div class="cards">
+      <div class="card"><h3>Lançamento Episódio X</h3><p>Resumo do episódio e hype.</p></div>
+      <div class="card"><h3>Mangá Y Publicado</h3><p>Novidades do mangá e spoilers leves.</p></div>
+      <div class="card"><h3>Trailer Exclusivo</h3><p>Confira o trailer mais recente.</p></div>
+    </div>
+  </section>
+
+  <section id="reviews">
+    <h2>Reviews & Opiniões</h2>
+    <p>Avaliações de episódios e arcos, artigos especiais sobre personagens e espaço para fãs comentarem.</p>
+  </section>
+
+  <section id="eventos">
+    <h2>Próximos Eventos</h2>
+    <ul>
+      <li>Lançamentos futuros de anime</li>
+      <li>Datas de mangas em pré-venda</li>
+      <li>News de conventions e encontros otaku</li>
+    </ul>
+  </section>
+
+  <section id="newsletter">
+    <h2>Fique Atualizado com Zenchi Spot</h2>
+    <form action="https://formsubmit.co/mariacastromc2222@gmail.com" method="POST">
+      <label>Nome completo<input type="text" name="nome" required></label>
+      <label>Email<input type="email" name="email" required></label>
+      <label>Preferências
+        <select name="preferencias" required>
+          <option>Anime</option>
+          <option>Mangá</option>
+          <option>Ambos</option>
+        </select>
+      </label>
+      <input type="hidden" name="_subject" value="Nova inscrição Zenchi Spot">
+      <input type="hidden" name="_next" value="https://zenchispot.github.io/obrigado.html">
+      <button type="submit">Inscrever-se</button>
+    </form>
+  </section>
+
+  <footer>
+    <p style="text-align:center;">Zenchi Spot • contato@zenchispot.ao • +244973595653<br>© 2025 Zenchi Spot — Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
